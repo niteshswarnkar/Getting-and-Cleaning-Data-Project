@@ -4,6 +4,7 @@ author: "Nitesh Swarnkar"
 date: "21 January 2018"
 output: html_document
 ---
+Code Book
 Raw data collection
 Collection
 Raw data are obtained from UCI Machine Learning repository. In particular we used the Human Activity Recognition Using Smartphones Data Set [1], that was used by the original collectors to conduct experiments exploiting Support Vector Machine (SVM) [2].
@@ -79,10 +80,6 @@ Body Angular Acceleration Magnitude	TimeDomain.BodyAngularAccelerationMagnitude	
 For variables derived from mean and standard deviation estimation, the previous labels are augmented with the terms "Mean" or "StandardDeviation".
 
 The data set is written to the file sensor_avg_by_act_sub.txt.
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## R Markdown
 ```{r}
 
